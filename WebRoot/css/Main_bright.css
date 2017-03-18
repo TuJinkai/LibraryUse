@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+body
+{
+
+   /* background-image: url('/image/background_bright.png'); */
+   background-repeat: repeat;
+   background-position: top left;
+   background-attachment: scroll;
+   background-color: #fff;
+   color: black;
+
+}
+
+
+/*  google like button
+.button
+{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    height: 33px;
+    width: 120px;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+}
+
+
+.button:hover
+{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #202020;
+}
+*/
+
+
+/*  dark style button */
+.button
+{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #303030;
+    border-radius: 2px;
+    height: 34px;
+    width: 120px;
+    border: 1px solid #303030;
+    color: #eeeeee;
+}
+
+
+.button:hover
+{
+    border: 1px solid #101010;
+    background-color: #101010;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #ffffff;
+}
+
+
+
+
+
+.icon-title
+{
+    background-position: 0px 0px;
+    width: 320px;
+    height: 30px;
+}
+
+
+.mainform_search
+{
+    background-color: #f6f6f6;
+}
+
+
+
+
+ul
+{
+    color: black;
+}
+
+a:link
+{
+   color:#000000;
+   text-decoration:none;
+}
+
+a:visited
+{
+   color:#000000;
+}
+
+
+#format-filter a:visited
+{
+    color:#000000;
+}
+
+
+#google-div{
+    background-color: white;
+}
+
+#google-iframe
+{
+    
+}
+
+
+#forum-div{
+    background-color: white;
+}
+
+.span-d{
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+.span-de{
+    color: #575757;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.span-des{
+    color: #895200;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.username{
+	height:50px;
+    line-height:50px;
+    float: right;
+    font-size:2px;
+    margin-right:1%;
+    color: #747474
+}
+
+#theme-div img
+{
+    margin-left: 0px;
+}
+
+#info-div img
+{
+    margin-left: -60px;
+}
+
+
+#theme-div img:hover,
+#info-div img:hover
+{
+    opacity: 0.6;
+}

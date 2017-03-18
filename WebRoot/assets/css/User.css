@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.article-meta{
+    font-size:16px;
+    color:#666;
+    margin-bottom:4px;
+    margin-right:6px;
+    margin-top:10px;
+}
+.labeled-text{
+    font-size:16px;
+}
+.article-title{
+    font-size:26px;
+    font-weight:bold;
+    font-family: '黑体';
+    color: #444444;
+    margin-bottom:10px;
+}
+.cover{
+    float:left;
+    display:block;
+    width:85px;
+    margin-right:20px;
+}
+.cover_shoucang{
+    float:left;
+    display:block;
+    width:85px;
+    height:120px;
+    margin-right:20px;
+}
+.shadow-cover{
+    position:relative;
+    -webkit-box-shadow:1px 1px 2px #aaa;
+    -moz-box-shadow:1px 1px 2px #aaa;
+    box-shadow:1px 1px 2px #aaa;
+}
+.username{
+	margin-right:10px;
+}
+.height300{
+	height:300px;
+}
+.height500{
+	height:500px;
+}
+.height600{
+	height:600px;
+}
+.width65{
+	width:65%;
+}
+.Martop20{
+	margin-top:20px;
+}
+.Marbottom40{
+	margin-bottom:40px;
+}
+.minheight500{
+	min-height:500px;
+}
+.btn{
+	height:32px;
+}
+.tupian{
+	height:100px;
+	width:100px;
+	display:block;
+}
+.btnred{
+	background-color:#dd4d40;
+}
+.btnred:hover{
+	background-color:#ea2000;
+}
+.btnYellow{
+	background-color:#ff9800;
+}
+.btnYellow:hover{
+	background-color:#ffce44;
+}
