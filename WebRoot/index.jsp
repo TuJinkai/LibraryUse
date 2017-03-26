@@ -120,7 +120,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<a class="dropdown-toggle" data-toggle="dropdown">登录/注册<span class="caret"></span></a>
 
 					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-						<li><a href="Login.html?LastUrl=index.jsp" role="menuitem">登录</a></li>
+						<li><a href="loginPage.action" role="menuitem">登录</a></li>
 						<li><a href="registered.html" role="menuitem">注册</a></li>
 					</ul>
 					

@@ -30,15 +30,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <br><%=Thread.currentThread().getContextClassLoader().getResource("").getPath()%>
     This is my JSP page. <br>
      
-     <form action="ShowBookInfo" method="post" accept-charset="UTF-8">
-     	输入图书编号：<input name="book_id"  type="1" class="form-control"  placeholder="请输入图书编号" required />
-     	<input name="搜索" type="submit" />
+     <form action="LonginAction.action" method="post" >
+     	id：<input name="Id"  type="text" />
+     	<input name="submit" type="submit" />
      </form>
      
      <form action="" method="post" enctype="multipart/form-data">
        <input type="file">
      </form>
      
-     <br> <a href="http://localhost:8080/LibraryUse/AddUser.jsp">注册</a>
+     <br> <a href="LonginAction.action">注册</a>
   </body>
 </html>
